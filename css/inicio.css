@@ -1,0 +1,16 @@
+/* ==========================================================================
+   Barra de navegación
+========================================================================== */
+
+header .navegacion{
+    text-align: right;
+    background-color: var(--color-azul-oscuro);
+    height: 40px;
+    padding-top: 10px;
+}
+
+header .navegacion a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
