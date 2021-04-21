@@ -11,37 +11,45 @@
     <header>
         <h3>20% de descuento en todos los productos!</h3>
         <h1><a href="index.html"><img src="img/OBJECTS.png" alt='tienda'></a> Nombre Tienda</h1>
+        <nav class='navegacion'>
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registrarme</a></li>
+                <li><a href="login.html">Ingresar</a></li>
+            </ul>
+        </nav>
     </header>
     
-    <form action='gracias.html' method='GET' class='registro'>
-        <h2>Registro</h2>
-        
-        <div>
-            <input type='text' placeholder="Nombre y Apellido" name='nombreyApellido' required>
-        </div>
-        <div>
-            <input type='email' placeholder="Correo Electrónico" name='email' required>
-        </div>
-        <div>
-            <input type='password' placeholder="Contraseña" name='password' required>
-        </div>
-        <div>
-            <select name='pais' required>
-                <option disabled selected>País</option>
-                <option value='Arg'>Argentina</option>
-                <option value='Col'>Colombia</option>
-                <option value='Bra'>Brasil</option>
-            </select>
-        </div>
-        <div>
-            <input type="reset" class='boton' value='Resetear'>
-            <input type="submit" class='boton' value='Entrar'>
-        </div>
-        <div class='link'>
-            <a href='login.html'>¿Ya tenés una cuenta? <span>Ingresar</span></a>
-        </div>
-
-    </form>
+    <main class='registro'>
+        <form action='gracias.html' method='GET'>
+            <h2>Registro</h2>
+            
+            <div>
+                <input type='text' placeholder="Nombre y Apellido" name='nombreyApellido' required>
+            </div>
+            <div>
+                <input type='email' placeholder="Correo Electrónico" name='email' required>
+            </div>
+            <div>
+                <input type='password' placeholder="Contraseña" name='password' required>
+            </div>
+            <div>
+                <select name='pais' required>
+                    <option disabled selected>País</option>
+                    <option value='Arg'>Argentina</option>
+                    <option value='Col'>Colombia</option>
+                    <option value='Bra'>Brasil</option>
+                </select>
+            </div>
+            <div>
+                <input type="reset" class='boton' value='Resetear'>
+                <input type="submit" class='boton' value='Entrar'>
+            </div>
+            <div class='link'>
+                <a href='login.html'>¿Ya tenés una cuenta? <span>Ingresar</span></a>
+            </div>
+        </form>
+    </main>
 
     <footer>
         <p>Todos los derechos reservados a FRONT END 1 </p>

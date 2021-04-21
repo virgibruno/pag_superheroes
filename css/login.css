@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Formularios
+========================================================================== */
+
+.login form {
+    margin: 0 35vw;
+    width: 30vw;
+}
+
+.login form h2{
+    font-family: Inter, sans-serif;
+    font-size: 70px;
+    margin: 1.5vh 0;
+}
+
+.login form input{
+    height: 6vh;
+    width: 100%;
+    color: #000000;
+    font-family: Karla;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.login form .boton{
+    height: 6vh;
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 23px;
+}
+
+.login form .link {
+    text-align: center;
+}
+
+.login form a {
+    text-decoration: none;
+    color: var(--color-azul)
+}
+
+.login form a span {
+    color: black;
+}
+
+.login form input.boton[type='reset']{
+    color: white;
+    background-color: var(--color-gris);
+}
+
+.login form input.boton[type='submit']{
+    background-color: var(--color-verde-agua);
+}

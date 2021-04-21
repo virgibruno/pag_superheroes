@@ -11,25 +11,34 @@
     <header>
         <h3>20% de descuento en todos los productos!</h3>
         <h1><a href="index.html"><img src="img/OBJECTS.png" alt='tienda'></a> Nombre Tienda</h1>
+        <nav class='navegacion'>
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registrarme</a></li>
+                <li><a href="login.html">Ingresar</a></li>
+            </ul>
+        </nav>
     </header>
     
-    <form action='gracias.html' method='GET' class='login'>
-        <h2>Login</h2>
-        
-        <div>
-            <input type='text' placeholder="Usuario" name='usuario' reguired>
-        </div>
-        <div>
-            <input type='password' placeholder="Contraseña" name='password' requiered>
-        </div>
-        <div>
-            <input type="submit" class='boton' value='Entrar'>
-        </div>
-        <div class='link'>
-            <a href='registro.html'>¿No tienes una cuenta? <span>Registrarme</span></a>
-        </div>
-
-    </form>
+    <main class='login'>
+        <form action='gracias.html' method='GET'>
+            <h2>Login</h2>
+            
+            <div>
+                <input type='text' placeholder="Usuario" name='usuario' reguired>
+            </div>
+            <div>
+                <input type='password' placeholder="Contraseña" name='password' requiered>
+            </div>
+            <div>
+                <input type="submit" class='boton' value='Entrar'>
+            </div>
+            <div class='link'>
+                <a href='registro.html'>¿No tienes una cuenta? <span>Registrarme</span></a>
+            </div>
+    
+        </form>
+    </main>
 
     <footer>
         <p>Todos los derechos reservados a FRONT END 1 </p>

@@ -11,28 +11,35 @@
     <header>
         <h3>20% de descuento en todos los productos!</h3>
         <h1><a href="index.html"><img src="img/OBJECTS.png" alt='tienda'></a> Nombre Tienda</h1>
+        <nav class='navegacion'>
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registrarme</a></li>
+                <li><a href="login.html">Ingresar</a></li>
+            </ul>
+        </nav>
     </header>
     
-    <form action='gracias.html' method='GET' class='contacto'>
-        <h2>Contacto</h2>
-        
-        <div>
-            <input type='text' placeholder="Nombre y Apellido" name='nombreyApellido' required>
-        </div>
-        <div>
-            <input type='email' placeholder="Correo Electrónico" name='email' required>
-        </div>
-        <div>
-            <textarea name='comentario' requiered></textarea>
-        </div>
-
-        <div>
-            <input type="reset" class='boton' value='Resetear'>
-            <input type="submit" class='boton' value='Entrar'>
-        </div>
-
-
-    </form>
+    <main class='contacto'>
+        <form action='gracias.html' method='GET'>
+            <h2>Contacto</h2>
+            
+            <div>
+                <input type='text' placeholder="Nombre y Apellido" name='nombreyApellido' required>
+            </div>
+            <div>
+                <input type='email' placeholder="Correo Electrónico" name='email' required>
+            </div>
+            <div>
+                <textarea name='comentario' requiered></textarea>
+            </div>
+    
+            <div>
+                <input type="reset" class='boton' value='Resetear'>
+                <input type="submit" class='boton' value='Entrar'>
+            </div>
+        </form>
+    </main>
 
     <footer>
         <p>Todos los derechos reservados a FRONT END 1 </p>

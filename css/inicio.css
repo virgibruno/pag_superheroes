@@ -1,16 +1,23 @@
 /* ==========================================================================
-   Barra de navegación
+   Botón agregar super
 ========================================================================== */
 
-header .navegacion{
-    text-align: right;
-    background-color: var(--color-azul-oscuro);
-    height: 40px;
-    padding-top: 10px;
+.index .boton {
+    color: white;
+    background-color: var(--color-azul);
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
-header .navegacion a{
-    padding-right: 20px;
-    text-decoration: none;
-    color: #FFFFFF;
+main.index{
+    height: calc(100vh - 205px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

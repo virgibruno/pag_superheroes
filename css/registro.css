@@ -1,18 +1,63 @@
-/* ==========================================================================
-   Botones
-========================================================================== */
 
-form.registro .boton{
+.registro form {
+    margin: 0 35vw;
+    width: 30vw;
+}
+
+.registro form h2{
+    font-family: Inter, sans-serif;
+    font-size: 70px;
+    margin: 1.5vh 0;
+}
+
+.registro form input{
+    height: 6vh;
+    width: 100%;
+    color: #000000;
+    font-family: Karla;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.registro form .boton{
+    height: 6vh;
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 23px;
+}
+
+.registro form .link {
+    text-align: center;
+}
+
+.registro form a {
+    text-decoration: none;
+    color: var(--color-azul)
+}
+
+.registro form a span {
+    color: black;
+}
+
+.registro form input.boton[type='reset']{
+    color: white;
+    background-color: var(--color-gris);
+}
+
+.registro form input.boton[type='submit']{
+    background-color: var(--color-verde-agua);
+}
+
+.registro form .boton{
     display: inline;
     width: 45%;
     margin-left: 2.5%;
 }
 
-/* ==========================================================================
-   País
-========================================================================== */
-
-form.registro select{
+.registro form select{
     height: 6vh;
     width: 100%;
     font-family: Karla;

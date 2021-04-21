@@ -1,18 +1,63 @@
-/* ==========================================================================
-   Botones
-========================================================================== */
 
-form.contacto .boton{
+.contacto form {
+    margin: 0 35vw;
+    width: 30vw;
+}
+
+.contacto form h2{
+    font-family: Inter, sans-serif;
+    font-size: 70px;
+    margin: 1.5vh 0;
+}
+
+.contacto form input{
+    height: 6vh;
+    width: 100%;
+    color: #000000;
+    font-family: Karla;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.contacto form .boton{
+    height: 6vh;
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 23px;
+}
+
+.contacto form .link {
+    text-align: center;
+}
+
+.contacto form a {
+    text-decoration: none;
+    color: var(--color-azul)
+}
+
+.contacto form a span {
+    color: black;
+}
+
+.contacto form input.boton[type='reset']{
+    color: white;
+    background-color: var(--color-gris);
+}
+
+.contacto form input.boton[type='submit']{
+    background-color: var(--color-verde-agua);
+}
+
+.contacto form .boton{
     display: inline;
     width: 45%;
     margin-left: 2.5%;
 }
 
-/* ==========================================================================
-   Comentario
-========================================================================== */
-
-form.contacto textarea{
+.contacto form textarea{
     height: 15vh;
     width: 100%;
     font-family: Karla;
