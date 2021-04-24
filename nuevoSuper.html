@@ -10,8 +10,7 @@
 <body>
     <header>
         <h3>20% de descuento en todos los productos!</h3>
-        <h1> <a href="index.html"><img src="img/OBJECTS.png" alt='tienda'></a> Nombre Tienda</h1>
-        <nav class='navegacion'>
+        <h1> <a href="index.html"><img src="img/OBJECTS.png" alt='tienda'> Nombre Tienda</a></h1>        <nav class='navegacion'>
             <ul>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="registro.html">Registrarme</a></li>
@@ -21,7 +20,49 @@
     </header>
     
     <main class='nuevoSuper'>
-    
+        <form action="gracias.html">
+            <h2>Añadí tu super!</h2>
+            <p>Agregá tu personaje favoorito completando las opciones,</p>
+            <div>
+                <label for='nombre'>*Nombre</label>
+                <input type="text" id='nombre' name="nombre" required>
+            </div>
+            <div>
+                <label for="especie">*Especie</label>
+                <select name='especie' id='especie' required> 
+                    <option disabled selected>Seleccionar especie</option>
+                    <option value='terrestre'>Terrestre</option>
+                    <option value='alienigena'>Alienígena</option>
+                    <option value='desconocido'>Desconocido</option>
+                </select>
+            </div>
+            <div>
+                <label for='fecha'>Fecha</label>
+                <input type="date" id='fecha' name='fecha' value='dd/mm/aaaa'>
+            </div>
+            <div>
+                <label for='foto'>Agregar Foto</label>
+                <input type='file' id='foto' value='foto'>
+            </div>
+            <div>
+                <textarea name="descripcion" placeholder='Descripción' rows="10"></textarea>
+            </div>
+            <div>
+                <label>Poderes</label>
+                <input type="checkbox" name='poderes' value='volar' id='volar'><label for="volar">Volar</label>
+                <input type="checkbox" name='poderes' value='inteligencia' id='inteligencia'><label for='inteligencia'>Superinteligencia</label>
+                <input type="checkbox" name='poderes' value='rayo_laser' id='rayo'><label for='rayo'>Vista de rayo láser</label>
+                <input type="checkbox" name='poderes' value='dinero' id='dinero'><label for='dinero'>Billetera gorda</label>
+            </div>
+            <div>
+                <label>Tipo de personaje</label>
+                <input type='radio' name='tipo_personaje' id='hero' value='hero'><label for='hero'>Héroe / Heroína</label>
+                <input type="radio" name='tipo_personaje' id='villane' value='villane'><label for='villane'>Villano / Villana</label>
+            </div>
+            <div class='boton'>
+                <input type='submit' value='Añadir'>
+            </div>
+        </form>
     </main>
     
     <footer>

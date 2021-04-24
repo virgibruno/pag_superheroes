@@ -1,3 +1,6 @@
+main.contacto {
+    height: calc(100vh - 205px);
+}
 
 .contacto form {
     margin: 0 35vw;

@@ -1,3 +1,6 @@
+main.registro {
+    height: calc(100vh - 205px);
+}
 
 .registro form {
     margin: 0 35vw;

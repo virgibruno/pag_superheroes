@@ -1,0 +1,38 @@
+
+.nuevoSuper form{
+    background-color: var(--color-azul);
+    border-radius: 50px;
+    padding: 15px;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    margin: 30px 15vw;
+    width: 70vw;
+    display: grid;
+}
+
+.nuevoSuper form h2{
+    font-size: 70px;
+    text-align: center;
+}
+
+.nuevoSuper form div {
+    padding: 10px;
+}
+
+.nuevoSuper form p {
+    text-align: center;
+}
+
+.nuevoSuper form .boton{
+    text-align: center;
+}
+
+.nuevoSuper form input[type=submit]{
+    background-color: var(--color-verde-agua);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 23px;
+    padding: 15px 160px;
+}
